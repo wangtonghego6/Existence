@@ -1,0 +1,711 @@
+Using pre-set license
+Built from '2021.3/china_unity/release' branch; Version is '2021.3.1f1c1 (0cb3bd085a01) revision 832445'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19044) 64bit Enterprise' Language: 'zh' Physical Memory: 16247 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+D:\UnityHub\2021.3.1f1c1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+I:/Unity饥荒/项目/Unity类饥荒3D生存-课堂
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+3514
+Successfully changed project path to: I:/Unity饥荒/项目/Unity类饥荒3D生存-课堂
+I:/Unity饥荒/项目/Unity类饥荒3D生存-课堂
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+AS: AutoStreaming module initializing.
+Refreshing native plugins compatible for Editor in 130.98 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.1f1c1 (0cb3bd085a01)
+[Subsystems] Discovering subsystems at path D:/UnityHub/2021.3.1f1c1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path I:/Unity饥荒/项目/Unity类饥荒3D生存-课堂/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1060 6GB (ID=0x1c03)
+    Vendor:   NVIDIA
+    VRAM:     6052 MB
+    Driver:   30.0.15.1215
+Initialize mono
+Mono path[0] = 'D:/UnityHub/2021.3.1f1c1/Editor/Data/Managed'
+Mono path[1] = 'D:/UnityHub/2021.3.1f1c1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/UnityHub/2021.3.1f1c1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56688
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/UnityHub/2021.3.1f1c1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.017179 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 115.48 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.977 seconds
+Domain Reload Profiling:
+	ReloadAssembly (978ms)
+		BeginReloadAssembly (130ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (623ms)
+			LoadAssemblies (122ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (145ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (36ms)
+			SetupLoadedEditorAssemblies (353ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (9ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (116ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (154ms)
+				ProcessInitializeOnLoadMethodAttributes (72ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.032759 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image I:\Unity饥荒\项目\Unity类饥荒3D生存-课堂\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image I:\Unity饥荒\项目\Unity类饥荒3D生存-课堂\Assets\JKFrame\Scripts\0.Lib\0.Plugins\Sirenix\Assemblies\Sirenix.OdinInspector.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory doesn't match image I:\Unity饥荒\项目\Unity类饥荒3D生存-课堂\Assets\JKFrame\Scripts\0.Lib\0.Plugins\Sirenix\Assemblies\Sirenix.OdinInspector.Attributes.dll
+Symbol file LoadedFromMemory doesn't match image I:\Unity饥荒\项目\Unity类饥荒3D生存-课堂\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image I:\Unity饥荒\项目\Unity类饥荒3D生存-课堂\Assets\JKFrame\Scripts\0.Lib\0.Plugins\Sirenix\Assemblies\Sirenix.Serialization.Config.dll
+Symbol file LoadedFromMemory doesn't match image I:\Unity饥荒\项目\Unity类饥荒3D生存-课堂\Assets\JKFrame\Scripts\0.Lib\0.Plugins\Sirenix\Assemblies\Sirenix.Utilities.dll
+Symbol file LoadedFromMemory doesn't match image I:\Unity饥荒\项目\Unity类饥荒3D生存-课堂\Assets\JKFrame\Scripts\0.Lib\0.Plugins\Sirenix\Assemblies\Sirenix.Serialization.dll
+Symbol file LoadedFromMemory doesn't match image I:\Unity饥荒\项目\Unity类饥荒3D生存-课堂\Assets\JKFrame\Scripts\0.Lib\0.Plugins\Sirenix\Assemblies\Sirenix.Utilities.Editor.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.80 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.266 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3270ms)
+		BeginReloadAssembly (185ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (31ms)
+		EndReloadAssembly (2902ms)
+			LoadAssemblies (212ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (367ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (82ms)
+			SetupLoadedEditorAssemblies (2106ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (234ms)
+				ProcessInitializeOnLoadAttributes (1721ms)
+				ProcessInitializeOnLoadMethodAttributes (109ms)
+				AfterProcessingInitializeOnLoad (30ms)
+				EditorAssembliesLoaded (3ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (33ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.14 seconds
+Refreshing native plugins compatible for Editor in 1.04 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3531 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 45 unused Assets / (1.3 MB). Loaded Objects now: 4033.
+Memory consumption went from 137.2 MB to 135.9 MB.
+Total: 40.785700 ms (FindLiveObjects: 1.465300 ms CreateObjectMapping: 1.890700 ms MarkObjects: 36.200500 ms  DeleteObjects: 1.224400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 21914.095607 seconds.
+  path: Assets/Res/角色/Boar/Prefab/ma023_FangsBoar_2.prefab
+  artifactKey: Guid(977904b6f748aa44f8515a820a04ad95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Res/角色/Boar/Prefab/ma023_FangsBoar_2.prefab using Guid(977904b6f748aa44f8515a820a04ad95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc7ef061e3e4d013522c1c7ae0b25bb2') in 0.279751 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 61.427592 seconds.
+  path: Assets/Prefabs/AI/Boar_2.prefab
+  artifactKey: Guid(594fe19096967eb4a9abb60d50f607ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/AI/Boar_2.prefab using Guid(594fe19096967eb4a9abb60d50f607ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '171089debcca34391ac8a76fa53fcb9b') in 0.196366 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.549805 seconds.
+  path: Assets/Prefabs/AI/Boar_3.prefab
+  artifactKey: Guid(02c7630619e4a19459647b6612f28872) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/AI/Boar_3.prefab using Guid(02c7630619e4a19459647b6612f28872) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce89d57906f4628e746ca0e8f4f09f18') in 0.047124 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.924088 seconds.
+  path: Assets/JKFrame/Setting/ConfigSetting.asset
+  artifactKey: Guid(81a9bfcbe7dabf240bbf9040e529eb52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JKFrame/Setting/ConfigSetting.asset using Guid(81a9bfcbe7dabf240bbf9040e529eb52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57e88bd2c10d5a322c34e5bc69f5caf7') in 0.400170 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.597459 seconds.
+  path: Assets/Config/AI/野猪1.asset
+  artifactKey: Guid(07b033d44f1c7b843b36587e9aa1b2e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Config/AI/野猪1.asset using Guid(07b033d44f1c7b843b36587e9aa1b2e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0202e9c5b7af6f6c1a27fa31103d4c0f') in 0.013259 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.409545 seconds.
+  path: Assets/Config/AI/野猪1 1.asset
+  artifactKey: Guid(66d4a72cdb716a44a88ca430a2fc3394) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Config/AI/野猪1 1.asset using Guid(66d4a72cdb716a44a88ca430a2fc3394) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '239b6d1df01b37c828cdcf1c3abb96dc') in 0.012899 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.832315 seconds.
+  path: Assets/Config/AI/野猪1 2.asset
+  artifactKey: Guid(12557748f59424e47b9cf40b07d95d44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Config/AI/野猪1 2.asset using Guid(12557748f59424e47b9cf40b07d95d44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0657d48579fef9fa5a4a05b642342ca') in 0.013672 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.646079 seconds.
+  path: Assets/Config/AI/野猪2.asset
+  artifactKey: Guid(12557748f59424e47b9cf40b07d95d44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Config/AI/野猪2.asset using Guid(12557748f59424e47b9cf40b07d95d44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '985a917cf2c91bb4236db54fbd1c22ff') in 0.015173 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.241214 seconds.
+  path: Assets/Config/AI/野猪3.asset
+  artifactKey: Guid(66d4a72cdb716a44a88ca430a2fc3394) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Config/AI/野猪3.asset using Guid(66d4a72cdb716a44a88ca430a2fc3394) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb2f8aa51e42163566cc3efe09c8cbe0') in 0.013818 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 42.478287 seconds.
+  path: Assets/Config/AI/野猪3.asset
+  artifactKey: Guid(66d4a72cdb716a44a88ca430a2fc3394) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Config/AI/野猪3.asset using Guid(66d4a72cdb716a44a88ca430a2fc3394) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e901e50b3682583c70e5a624a8ad942') in 0.012767 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.030525 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image I:\Unity饥荒\项目\Unity类饥荒3D生存-课堂\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image I:\Unity饥荒\项目\Unity类饥荒3D生存-课堂\Assets\JKFrame\Scripts\0.Lib\0.Plugins\Sirenix\Assemblies\Sirenix.OdinInspector.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory doesn't match image I:\Unity饥荒\项目\Unity类饥荒3D生存-课堂\Assets\JKFrame\Scripts\0.Lib\0.Plugins\Sirenix\Assemblies\Sirenix.OdinInspector.Attributes.dll
+Symbol file LoadedFromMemory doesn't match image I:\Unity饥荒\项目\Unity类饥荒3D生存-课堂\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image I:\Unity饥荒\项目\Unity类饥荒3D生存-课堂\Assets\JKFrame\Scripts\0.Lib\0.Plugins\Sirenix\Assemblies\Sirenix.Serialization.Config.dll
+Symbol file LoadedFromMemory doesn't match image I:\Unity饥荒\项目\Unity类饥荒3D生存-课堂\Assets\JKFrame\Scripts\0.Lib\0.Plugins\Sirenix\Assemblies\Sirenix.Utilities.dll
+Symbol file LoadedFromMemory doesn't match image I:\Unity饥荒\项目\Unity类饥荒3D生存-课堂\Assets\JKFrame\Scripts\0.Lib\0.Plugins\Sirenix\Assemblies\Sirenix.Serialization.dll
+Symbol file LoadedFromMemory doesn't match image I:\Unity饥荒\项目\Unity类饥荒3D生存-课堂\Assets\JKFrame\Scripts\0.Lib\0.Plugins\Sirenix\Assemblies\Sirenix.Utilities.Editor.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.07 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.534 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3535ms)
+		BeginReloadAssembly (277ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (73ms)
+		EndReloadAssembly (3101ms)
+			LoadAssemblies (236ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (354ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (92ms)
+			SetupLoadedEditorAssemblies (2265ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (16ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (225ms)
+				ProcessInitializeOnLoadAttributes (1888ms)
+				ProcessInitializeOnLoadMethodAttributes (103ms)
+				AfterProcessingInitializeOnLoad (30ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (37ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 8.14 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3485 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 38 unused Assets / (1.3 MB). Loaded Objects now: 4043.
+Memory consumption went from 150.2 MB to 148.9 MB.
+Total: 40.663500 ms (FindLiveObjects: 1.050700 ms CreateObjectMapping: 0.826200 ms MarkObjects: 37.759700 ms  DeleteObjects: 1.023200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 26.501769 seconds.
+  path: Assets/Config/AI/野猪1.asset
+  artifactKey: Guid(07b033d44f1c7b843b36587e9aa1b2e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Config/AI/野猪1.asset using Guid(07b033d44f1c7b843b36587e9aa1b2e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a171726e72bf6a02d04990faec5d0bed') in 0.108385 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.025149 seconds.
+  path: Assets/Config/AI/空的.asset
+  artifactKey: Guid(c516883567c179644875be4285b77458) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Config/AI/空的.asset using Guid(c516883567c179644875be4285b77458) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea8c28df5e5999dc8fd5ca55ea2806a9') in 0.011004 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 50.745916 seconds.
+  path: Assets/Config/AI/野猪2.asset
+  artifactKey: Guid(12557748f59424e47b9cf40b07d95d44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Config/AI/野猪2.asset using Guid(12557748f59424e47b9cf40b07d95d44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54725d1cd1e0839497762b2e87c6baf5') in 0.017114 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.031393 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image I:\Unity饥荒\项目\Unity类饥荒3D生存-课堂\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image I:\Unity饥荒\项目\Unity类饥荒3D生存-课堂\Assets\JKFrame\Scripts\0.Lib\0.Plugins\Sirenix\Assemblies\Sirenix.OdinInspector.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory doesn't match image I:\Unity饥荒\项目\Unity类饥荒3D生存-课堂\Assets\JKFrame\Scripts\0.Lib\0.Plugins\Sirenix\Assemblies\Sirenix.OdinInspector.Attributes.dll
+Symbol file LoadedFromMemory doesn't match image I:\Unity饥荒\项目\Unity类饥荒3D生存-课堂\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image I:\Unity饥荒\项目\Unity类饥荒3D生存-课堂\Assets\JKFrame\Scripts\0.Lib\0.Plugins\Sirenix\Assemblies\Sirenix.Serialization.Config.dll
+Symbol file LoadedFromMemory doesn't match image I:\Unity饥荒\项目\Unity类饥荒3D生存-课堂\Assets\JKFrame\Scripts\0.Lib\0.Plugins\Sirenix\Assemblies\Sirenix.Utilities.dll
+Symbol file LoadedFromMemory doesn't match image I:\Unity饥荒\项目\Unity类饥荒3D生存-课堂\Assets\JKFrame\Scripts\0.Lib\0.Plugins\Sirenix\Assemblies\Sirenix.Serialization.dll
+Symbol file LoadedFromMemory doesn't match image I:\Unity饥荒\项目\Unity类饥荒3D生存-课堂\Assets\JKFrame\Scripts\0.Lib\0.Plugins\Sirenix\Assemblies\Sirenix.Utilities.Editor.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.19 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.607 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3608ms)
+		BeginReloadAssembly (273ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (79ms)
+		EndReloadAssembly (3185ms)
+			LoadAssemblies (234ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (395ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (65ms)
+			SetupLoadedEditorAssemblies (2277ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (15ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (218ms)
+				ProcessInitializeOnLoadAttributes (1918ms)
+				ProcessInitializeOnLoadMethodAttributes (92ms)
+				AfterProcessingInitializeOnLoad (31ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (37ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 11.05 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3485 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 38 unused Assets / (1.3 MB). Loaded Objects now: 4046.
+Memory consumption went from 150.2 MB to 148.9 MB.
+Total: 41.261300 ms (FindLiveObjects: 1.179600 ms CreateObjectMapping: 0.290200 ms MarkObjects: 38.762200 ms  DeleteObjects: 1.025500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.032115 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image I:\Unity饥荒\项目\Unity类饥荒3D生存-课堂\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image I:\Unity饥荒\项目\Unity类饥荒3D生存-课堂\Assets\JKFrame\Scripts\0.Lib\0.Plugins\Sirenix\Assemblies\Sirenix.OdinInspector.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory doesn't match image I:\Unity饥荒\项目\Unity类饥荒3D生存-课堂\Assets\JKFrame\Scripts\0.Lib\0.Plugins\Sirenix\Assemblies\Sirenix.OdinInspector.Attributes.dll
+Symbol file LoadedFromMemory doesn't match image I:\Unity饥荒\项目\Unity类饥荒3D生存-课堂\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image I:\Unity饥荒\项目\Unity类饥荒3D生存-课堂\Assets\JKFrame\Scripts\0.Lib\0.Plugins\Sirenix\Assemblies\Sirenix.Serialization.Config.dll
+Symbol file LoadedFromMemory doesn't match image I:\Unity饥荒\项目\Unity类饥荒3D生存-课堂\Assets\JKFrame\Scripts\0.Lib\0.Plugins\Sirenix\Assemblies\Sirenix.Utilities.dll
+Symbol file LoadedFromMemory doesn't match image I:\Unity饥荒\项目\Unity类饥荒3D生存-课堂\Assets\JKFrame\Scripts\0.Lib\0.Plugins\Sirenix\Assemblies\Sirenix.Serialization.dll
+Symbol file LoadedFromMemory doesn't match image I:\Unity饥荒\项目\Unity类饥荒3D生存-课堂\Assets\JKFrame\Scripts\0.Lib\0.Plugins\Sirenix\Assemblies\Sirenix.Utilities.Editor.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.02 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.563 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3564ms)
+		BeginReloadAssembly (306ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (78ms)
+		EndReloadAssembly (3070ms)
+			LoadAssemblies (254ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (372ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (63ms)
+			SetupLoadedEditorAssemblies (2235ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (17ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (215ms)
+				ProcessInitializeOnLoadAttributes (1862ms)
+				ProcessInitializeOnLoadMethodAttributes (106ms)
+				AfterProcessingInitializeOnLoad (31ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (39ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 10.09 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3485 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 38 unused Assets / (1.3 MB). Loaded Objects now: 4049.
+Memory consumption went from 150.2 MB to 148.9 MB.
+Total: 44.573200 ms (FindLiveObjects: 1.020300 ms CreateObjectMapping: 1.631500 ms MarkObjects: 41.050300 ms  DeleteObjects: 0.866900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.035866 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image I:\Unity饥荒\项目\Unity类饥荒3D生存-课堂\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image I:\Unity饥荒\项目\Unity类饥荒3D生存-课堂\Assets\JKFrame\Scripts\0.Lib\0.Plugins\Sirenix\Assemblies\Sirenix.OdinInspector.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory doesn't match image I:\Unity饥荒\项目\Unity类饥荒3D生存-课堂\Assets\JKFrame\Scripts\0.Lib\0.Plugins\Sirenix\Assemblies\Sirenix.OdinInspector.Attributes.dll
+Symbol file LoadedFromMemory doesn't match image I:\Unity饥荒\项目\Unity类饥荒3D生存-课堂\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image I:\Unity饥荒\项目\Unity类饥荒3D生存-课堂\Assets\JKFrame\Scripts\0.Lib\0.Plugins\Sirenix\Assemblies\Sirenix.Serialization.Config.dll
+Symbol file LoadedFromMemory doesn't match image I:\Unity饥荒\项目\Unity类饥荒3D生存-课堂\Assets\JKFrame\Scripts\0.Lib\0.Plugins\Sirenix\Assemblies\Sirenix.Utilities.dll
+Symbol file LoadedFromMemory doesn't match image I:\Unity饥荒\项目\Unity类饥荒3D生存-课堂\Assets\JKFrame\Scripts\0.Lib\0.Plugins\Sirenix\Assemblies\Sirenix.Serialization.dll
+Symbol file LoadedFromMemory doesn't match image I:\Unity饥荒\项目\Unity类饥荒3D生存-课堂\Assets\JKFrame\Scripts\0.Lib\0.Plugins\Sirenix\Assemblies\Sirenix.Utilities.Editor.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 2.56 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.115 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3116ms)
+		BeginReloadAssembly (265ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (79ms)
+		EndReloadAssembly (2686ms)
+			LoadAssemblies (224ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (331ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (50ms)
+			SetupLoadedEditorAssemblies (1958ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (18ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (3ms)
+				BeforeProcessingInitializeOnLoad (227ms)
+				ProcessInitializeOnLoadAttributes (1619ms)
+				ProcessInitializeOnLoadMethodAttributes (65ms)
+				AfterProcessingInitializeOnLoad (25ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (25ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 10.30 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3485 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 38 unused Assets / (1.3 MB). Loaded Objects now: 4052.
+Memory consumption went from 150.3 MB to 149.0 MB.
+Total: 23.952400 ms (FindLiveObjects: 0.753800 ms CreateObjectMapping: 0.530700 ms MarkObjects: 21.819100 ms  DeleteObjects: 0.846200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 499.371106 seconds.
+  path: Assets/Config/AI/空的 1.asset
+  artifactKey: Guid(1f310e028a4211346a91aaa19f01bde9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Config/AI/空的 1.asset using Guid(1f310e028a4211346a91aaa19f01bde9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a84fb4c2d2cad24b06877445f29606ef') in 0.062746 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.168926 seconds.
+  path: Assets/Config/AI/森林空.asset
+  artifactKey: Guid(1f310e028a4211346a91aaa19f01bde9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Config/AI/森林空.asset using Guid(1f310e028a4211346a91aaa19f01bde9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dcc997d39f0f83bb8944be2563779c58') in 0.007304 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.769940 seconds.
+  path: Assets/Config/AI/空的.asset
+  artifactKey: Guid(c516883567c179644875be4285b77458) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Config/AI/空的.asset using Guid(c516883567c179644875be4285b77458) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c9d217694710bf77917e592c882864c') in 0.012657 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.522170 seconds.
+  path: Assets/Config/AI/沼泽空.asset
+  artifactKey: Guid(c516883567c179644875be4285b77458) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Config/AI/沼泽空.asset using Guid(c516883567c179644875be4285b77458) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c7597f0f7c6b7086b19fc284a0f89e6') in 0.006878 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 27.116848 seconds.
+  path: Assets/Config/AI/野猪1.asset
+  artifactKey: Guid(07b033d44f1c7b843b36587e9aa1b2e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Config/AI/野猪1.asset using Guid(07b033d44f1c7b843b36587e9aa1b2e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46252b903760fedf0c26a253269dd386') in 0.084014 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.854899 seconds.
+  path: Assets/Config/AI/野猪2.asset
+  artifactKey: Guid(12557748f59424e47b9cf40b07d95d44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Config/AI/野猪2.asset using Guid(12557748f59424e47b9cf40b07d95d44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a64d740e566ebe930b344aead122d901') in 0.017540 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.703916 seconds.
+  path: Assets/Config/AI/野猪3.asset
+  artifactKey: Guid(66d4a72cdb716a44a88ca430a2fc3394) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Config/AI/野猪3.asset using Guid(66d4a72cdb716a44a88ca430a2fc3394) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2ad9f38a9af92ac3475d178af0d85b5') in 0.018989 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.031639 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image I:\Unity饥荒\项目\Unity类饥荒3D生存-课堂\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image I:\Unity饥荒\项目\Unity类饥荒3D生存-课堂\Assets\JKFrame\Scripts\0.Lib\0.Plugins\Sirenix\Assemblies\Sirenix.OdinInspector.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory doesn't match image I:\Unity饥荒\项目\Unity类饥荒3D生存-课堂\Assets\JKFrame\Scripts\0.Lib\0.Plugins\Sirenix\Assemblies\Sirenix.OdinInspector.Attributes.dll
+Symbol file LoadedFromMemory doesn't match image I:\Unity饥荒\项目\Unity类饥荒3D生存-课堂\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image I:\Unity饥荒\项目\Unity类饥荒3D生存-课堂\Assets\JKFrame\Scripts\0.Lib\0.Plugins\Sirenix\Assemblies\Sirenix.Serialization.Config.dll
+Symbol file LoadedFromMemory doesn't match image I:\Unity饥荒\项目\Unity类饥荒3D生存-课堂\Assets\JKFrame\Scripts\0.Lib\0.Plugins\Sirenix\Assemblies\Sirenix.Utilities.dll
+Symbol file LoadedFromMemory doesn't match image I:\Unity饥荒\项目\Unity类饥荒3D生存-课堂\Assets\JKFrame\Scripts\0.Lib\0.Plugins\Sirenix\Assemblies\Sirenix.Serialization.dll
+Symbol file LoadedFromMemory doesn't match image I:\Unity饥荒\项目\Unity类饥荒3D生存-课堂\Assets\JKFrame\Scripts\0.Lib\0.Plugins\Sirenix\Assemblies\Sirenix.Utilities.Editor.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.79 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.804 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3817ms)
+		BeginReloadAssembly (271ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (9ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (78ms)
+		EndReloadAssembly (3387ms)
+			LoadAssemblies (230ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (389ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (65ms)
+			SetupLoadedEditorAssemblies (2489ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (19ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (257ms)
+				ProcessInitializeOnLoadAttributes (2082ms)
+				ProcessInitializeOnLoadMethodAttributes (105ms)
+				AfterProcessingInitializeOnLoad (23ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (34ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 9.14 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3485 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 38 unused Assets / (1.3 MB). Loaded Objects now: 4055.
+Memory consumption went from 150.3 MB to 149.0 MB.
+Total: 45.627200 ms (FindLiveObjects: 1.518100 ms CreateObjectMapping: 0.999800 ms MarkObjects: 42.031700 ms  DeleteObjects: 1.073600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.034828 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image I:\Unity饥荒\项目\Unity类饥荒3D生存-课堂\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image I:\Unity饥荒\项目\Unity类饥荒3D生存-课堂\Assets\JKFrame\Scripts\0.Lib\0.Plugins\Sirenix\Assemblies\Sirenix.OdinInspector.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory doesn't match image I:\Unity饥荒\项目\Unity类饥荒3D生存-课堂\Assets\JKFrame\Scripts\0.Lib\0.Plugins\Sirenix\Assemblies\Sirenix.OdinInspector.Attributes.dll
+Symbol file LoadedFromMemory doesn't match image I:\Unity饥荒\项目\Unity类饥荒3D生存-课堂\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image I:\Unity饥荒\项目\Unity类饥荒3D生存-课堂\Assets\JKFrame\Scripts\0.Lib\0.Plugins\Sirenix\Assemblies\Sirenix.Serialization.Config.dll
+Symbol file LoadedFromMemory doesn't match image I:\Unity饥荒\项目\Unity类饥荒3D生存-课堂\Assets\JKFrame\Scripts\0.Lib\0.Plugins\Sirenix\Assemblies\Sirenix.Utilities.dll
+Symbol file LoadedFromMemory doesn't match image I:\Unity饥荒\项目\Unity类饥荒3D生存-课堂\Assets\JKFrame\Scripts\0.Lib\0.Plugins\Sirenix\Assemblies\Sirenix.Serialization.dll
+Symbol file LoadedFromMemory doesn't match image I:\Unity饥荒\项目\Unity类饥荒3D生存-课堂\Assets\JKFrame\Scripts\0.Lib\0.Plugins\Sirenix\Assemblies\Sirenix.Utilities.Editor.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 2.10 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.540 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3542ms)
+		BeginReloadAssembly (275ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (72ms)
+		EndReloadAssembly (3109ms)
+			LoadAssemblies (242ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (387ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (56ms)
+			SetupLoadedEditorAssemblies (2232ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (15ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (236ms)
+				ProcessInitializeOnLoadAttributes (1860ms)
+				ProcessInitializeOnLoadMethodAttributes (93ms)
+				AfterProcessingInitializeOnLoad (26ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (43ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 7.50 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3485 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 38 unused Assets / (1.3 MB). Loaded Objects now: 4058.
+Memory consumption went from 150.3 MB to 149.0 MB.
+Total: 50.926500 ms (FindLiveObjects: 1.030000 ms CreateObjectMapping: 0.871300 ms MarkObjects: 48.071600 ms  DeleteObjects: 0.944200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.032278 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image I:\Unity饥荒\项目\Unity类饥荒3D生存-课堂\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image I:\Unity饥荒\项目\Unity类饥荒3D生存-课堂\Assets\JKFrame\Scripts\0.Lib\0.Plugins\Sirenix\Assemblies\Sirenix.OdinInspector.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory doesn't match image I:\Unity饥荒\项目\Unity类饥荒3D生存-课堂\Assets\JKFrame\Scripts\0.Lib\0.Plugins\Sirenix\Assemblies\Sirenix.OdinInspector.Attributes.dll
+Symbol file LoadedFromMemory doesn't match image I:\Unity饥荒\项目\Unity类饥荒3D生存-课堂\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image I:\Unity饥荒\项目\Unity类饥荒3D生存-课堂\Assets\JKFrame\Scripts\0.Lib\0.Plugins\Sirenix\Assemblies\Sirenix.Serialization.Config.dll
+Symbol file LoadedFromMemory doesn't match image I:\Unity饥荒\项目\Unity类饥荒3D生存-课堂\Assets\JKFrame\Scripts\0.Lib\0.Plugins\Sirenix\Assemblies\Sirenix.Utilities.dll
+Symbol file LoadedFromMemory doesn't match image I:\Unity饥荒\项目\Unity类饥荒3D生存-课堂\Assets\JKFrame\Scripts\0.Lib\0.Plugins\Sirenix\Assemblies\Sirenix.Serialization.dll
+Symbol file LoadedFromMemory doesn't match image I:\Unity饥荒\项目\Unity类饥荒3D生存-课堂\Assets\JKFrame\Scripts\0.Lib\0.Plugins\Sirenix\Assemblies\Sirenix.Utilities.Editor.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.71 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.335 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3339ms)
+		BeginReloadAssembly (241ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (57ms)
+		EndReloadAssembly (2935ms)
+			LoadAssemblies (232ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (285ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (46ms)
+			SetupLoadedEditorAssemblies (2228ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (14ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (228ms)
+				ProcessInitializeOnLoadAttributes (1902ms)
+				ProcessInitializeOnLoadMethodAttributes (53ms)
+				AfterProcessingInitializeOnLoad (29ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (25ms)
+Platform modules already initialized, skipping

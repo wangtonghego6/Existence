@@ -1,1 +1,3 @@
-{"m_DefineSymbols":{"m_Value":{"Android":"UNITY_POST_PROCESSING_STACK_V2","CloudRendering":"UNITY_POST_PROCESSING_STACK_V2","EmbeddedLinux":"UNITY_POST_PROCESSING_STACK_V2","GameCoreXboxOne":"UNITY_POST_PROCESSING_STACK_V2","Lumin":"UNITY_POST_PROCESSING_STACK_V2","Nintendo Switch":"UNITY_POST_PROCESSING_STACK_V2","PS4":"UNITY_POST_PROCESSING_STACK_V2","PS5":"UNITY_POST_PROCESSING_STACK_V2","Stadia":"UNITY_POST_PROCESSING_STACK_V2","Standalone":"ODIN_INSPECTOR;ODIN_INSPECTOR_3;UNITY_POST_PROCESSING_STACK_V2","WebGL":"UNITY_POST_PROCESSING_STACK_V2","Windows Store Apps":"UNITY_POST_PROCESSING_STACK_V2","XboxOne":"UNITY_POST_PROCESSING_STACK_V2","tvOS":"UNITY_POST_PROCESSING_STACK_V2"},"m_Initialized":true},"m_AllowUnsafeCode":{"m_Value":false,"m_Initialized":false},"m_ScriptDebugInfoEnabled":{"m_Value":true,"m_Initialized":true}}
+version https://git-lfs.github.com/spec/v1
+oid sha256:4a81bebb828ae8a8464ab0c4c588adbf6d185111fbd69ac587ebc9c317e19436
+size 990

@@ -1,22 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-using JKFrame;
-
-/// <summary>
-/// Íæ¼Ò¹¥»÷×´Ì¬
-/// </summary>
-public class Player_Attack : PlayerStateBase
-{
-    public Quaternion attackDir;
-    public override void Enter()
-    {
-        attackDir = player.attackDir;
-        player.PlayAnimation("Attack");
-    }
-    public override void Update()
-    {
-        // Ðý×ªµ½¹¥»÷·½Ïò
-        player.playerTransform.localRotation = Quaternion.Slerp(player.playerTransform.localRotation, attackDir, Time.deltaTime * player.rotateSpeed * 2);
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:98f60634657ca095a645bf815a4071dca32af803d517625f8ba7c554b1105f83
+size 597

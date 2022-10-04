@@ -1,26 +1,3 @@
-﻿using JKFrame;
-using System.Collections;
-using UnityEngine;
-
-public class AI_HurtState : AIStateBase
-{
-    public override void Enter()
-    {
-        // 播放动画
-        AI.PlayAnimation("Hurt");
-        // 播放受伤音效
-        AI.PlayAudio("Hurt");
-        // 添加受伤结束的动画事件
-        AI.AddAnimationEvent("HurtOver",HurtOver);
-    }
-
-    public override void Exit()
-    {
-        AI.RemoveAnimationEvent("HurtOver", HurtOver);
-    }
-    private void HurtOver()
-    {
-        // 切换到追击
-        AI.ChangState(AIState.Pursue);
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:b012a4a1eaffb5c9e99d9590b7b01b36579d9216323895cbcbd7377b753c861b
+size 598

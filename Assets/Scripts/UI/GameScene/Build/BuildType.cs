@@ -1,13 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-
-/// <summary>
-/// 建造窗口菜单类型
-/// </summary>
-public enum BuildType
-{
-    Weapon,     // 武器/工具
-    Building,   // 建筑物
-    Crop,       // 农作物
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:2e3fbc722ba8912b233f61f1b7e18ff8e3d1e373131b5ffa9ff1d53517b3c4bf
+size 285

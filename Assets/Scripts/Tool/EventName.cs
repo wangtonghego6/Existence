@@ -1,15 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-
-public class EventName
-{
-    public static string UpdateDayNum = "UpdateDayNum";
-    public static string UpdateTimeState = "UpdateTimeState";
-    public static string OnMorn = "OnMorn";
-    public static string UpdatePlayerHP = "UpdatePlayerHP";
-    public static string UpdatePlayerHungry = "UpdatePlayerHungry";
-    public static string PlayerWeaponAttackSucceed = "PlayerWeaponAttackSucceed";
-    public static string AddItem = "AddMainInventoryItem";
-    public static string BuildBuilding = "BuildBuilding";
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:667ebafcd99b5554877cabf7ec3adf886afce688d6b9cd3b9ca2938d5f7a6507
+size 660

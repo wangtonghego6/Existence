@@ -1,35 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-using JKFrame;
-
-/// <summary>
-/// 科技管理器
-/// </summary>
-public class ScienceManager : SingletonMono<ScienceManager>
-{
-    private ScienceData scienceData;
-    public void Init()
-    {
-        scienceData = ArchiveManager.Instance.ScienceData;
-    }
-    /// <summary>
-    /// 检测解锁
-    /// </summary>
-    public bool CheckUnLock(int ID)
-    {
-        return scienceData.CheckUnLock(ID);
-    }
-
-    /// <summary>
-    /// 添加科技
-    /// </summary>
-    public void AddScience(int ID)
-    {
-        scienceData.AddScience(ID);
-    }
-    private void OnDestroy()
-    {
-        ArchiveManager.Instance.SaveScienceData();
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:0a63b8af9b077346e0e6ae4e52801b2318a24b3acf8f070efcc32a08576a92f0
+size 818

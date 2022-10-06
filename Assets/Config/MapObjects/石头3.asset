@@ -1,29 +1,3 @@
-%YAML 1.1
-%TAG !u! tag:unity3d.com,2011:
---- !u!114 &11400000
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e2a575c48b7b29546a868eba2081562c, type: 3}
-  m_Name: "\u77F3\u59343"
-  m_EditorClassIdentifier: 
-  serializationData:
-    SerializedFormat: 2
-    SerializedBytes: 
-    ReferencedUnityObjects: []
-    SerializedBytesString: 
-    Prefab: {fileID: 0}
-    PrefabModificationsReferencedUnityObjects: []
-    PrefabModifications: []
-    SerializationNodes: []
-  IsEmpty: 0
-  MapVertexType: 1
-  Prefab: {fileID: 4371437922141244876, guid: 56fc8f97fdc0fa7418745fb9482509da, type: 3}
-  MapIconSprite: {fileID: 21300000, guid: c7f63e68fc50b8047a6558ced6ebefd9, type: 3}
-  IconSize: 0.3
-  Probability: 2
+version https://git-lfs.github.com/spec/v1
+oid sha256:68ba57bb173074a406bb0b95c847a705340207fbb75ac9c43c684eb3a85366e1
+size 932
